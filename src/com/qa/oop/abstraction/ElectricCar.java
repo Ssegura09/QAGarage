@@ -1,4 +1,4 @@
-package com.qa.garage;
+package com.qa.oop.abstraction;
 
 public class ElectricCar extends Car {
 
@@ -6,9 +6,10 @@ public class ElectricCar extends Car {
 		super(manufacturer, model, doc);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	// This is virtual method invocation
 	@Override
-	public void accelerate() {
+	public void accelerating() {
 		System.out.println("Voltage Check: OK");
 		System.out.println("Connecting circuit");
 		System.out.println("Motor spinning");

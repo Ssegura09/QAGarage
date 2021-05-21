@@ -1,4 +1,4 @@
-package com.qa.garage;
+package com.qa.oop.abstraction;
 
 public class GasCar extends Car {
 
@@ -8,7 +8,7 @@ public class GasCar extends Car {
 	}
 
 	@Override
-	public void accelerate() {
+	public void accelerating() {
 		System.out.println("Increasing fuel flow");
 		System.out.println("Clutch connected");
 		System.out.println("Accelerating");

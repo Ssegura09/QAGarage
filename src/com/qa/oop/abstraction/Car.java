@@ -1,6 +1,6 @@
-package com.qa.garage;
+package com.qa.oop.abstraction;
 
-public abstract class Car {
+public abstract class Car implements DrivingBehavior {
 
 	// Attributes
 	private String manufacturer;
@@ -14,12 +14,6 @@ public abstract class Car {
 		this.model = model;
 		this.dateOfCreation = doc;
 	}
-
-	// Method
-
-	public abstract void accelerate();
-
-	public abstract void breaking();
 
 	// Getter and Setters //read only
 	public String getManufacturer() {
