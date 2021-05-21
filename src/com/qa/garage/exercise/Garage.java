@@ -26,18 +26,16 @@ public class Garage {
 		return lotName;
 	}
 	
-	public List<Object> getMyGarage() {
-		return myGarage;
-	}
 
-	
-	// list to store the vehicles
+	//Methods
 
-	List<Object> myGarage = new ArrayList<Object>();
+	List<Object> myLot = new ArrayList<Object>();
 	
-	public void addVehicle(Object vehicle) {
-		myGarage.add(0, vehicle);;
-	}
+	
+	
+	
+	
+	
 	
 	
 	
