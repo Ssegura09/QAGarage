@@ -31,7 +31,8 @@ public class Runner {
 		g.addVehicle(pt1);
 		g.addVehicle(s1);
 		
-		g.removeById(0);
+//		g.removeById(0);
+//		g.emptyGarage();
 //		
 //		System.out.println(g);
 		g.showVehicles();
