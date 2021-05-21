@@ -30,7 +30,9 @@ public class Runner {
 		g.addVehicle(m1);
 		g.addVehicle(pt1);
 		g.addVehicle(s1);
-		g.removeVehicle(pt1);
+		
+		g.removeById(0);
+//		
 //		System.out.println(g);
 		g.showVehicles();
 		g.vehicleBill();
