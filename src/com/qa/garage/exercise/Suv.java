@@ -24,7 +24,14 @@ public class Suv extends Vehicle {
 		System.out.println("ATTN: Tire pressure is low! Please go to the nearest service center! ");
 		
 	}
+	
 
+
+	@Override
+	public String toString() {
+		return "Suv made by " + getManufacturer() + " it has " + getNumTires() + " tires"
+				+ ", it has " + getNumDoors() + " doors";
+	}
 	
 
 	

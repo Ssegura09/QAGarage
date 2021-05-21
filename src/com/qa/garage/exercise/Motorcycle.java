@@ -26,6 +26,16 @@ public class Motorcycle extends Vehicle {
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Motorcycle made by " + getManufacturer() + " it has " + getNumTires() + " tires"
+				+ ", it has " + getNumDoors() + " doors";
+	}
+	
+	
+	
+	
+
 	
 
 	
