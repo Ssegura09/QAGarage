@@ -1,6 +1,6 @@
 package com.qa.garage.exercise;
 
-public abstract class Vehicle extends Garage implements Specs {
+public abstract class Vehicle implements Specs {
 
 	// Attributes
 	private String manufacturer;
@@ -35,6 +35,9 @@ public abstract class Vehicle extends Garage implements Specs {
 	public int getNumDoors() {
 		return numDoors;
 	}
+
+	
+	
 
 	
 	

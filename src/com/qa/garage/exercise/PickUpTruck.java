@@ -24,6 +24,13 @@ public class PickUpTruck extends Vehicle {
 		System.out.println("ATTN: Time for an Oil Change! Please go to the nearest service center! ");
 		
 	}
+
+	@Override
+	public String toString() {
+		
+		return "Truck made by " + getManufacturer() + " it has " + getNumTires() + " tires"
+		+ ", it has " + getNumDoors() + " doors";
+	}
 	
 	
 
