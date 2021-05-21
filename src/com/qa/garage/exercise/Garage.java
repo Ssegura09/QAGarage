@@ -51,6 +51,10 @@ public class Garage {
 		contentsOfGarage.remove(i);		
 	}
 	
+	public void emptyGarage() {
+		contentsOfGarage.removeAll(contentsOfGarage);
+	}
+	
 	
 	public void vehicleBill() {
 		double total = 0d;
